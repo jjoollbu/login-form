@@ -11,7 +11,6 @@ export function LoginContainer({ children }: LoginContainerProps) {
         "w-full",
         "max-w-md",
         "p-8",
-        "space-y-6",
         "bg-gray-900/50",
         "backdrop-blur-md",
         "border",

@@ -4,6 +4,8 @@ type HeadingProps = {
 
 export function Heading({ children }: HeadingProps) {
   return (
-    <h1 className="text-3xl font-bold text-center text-white">{children}</h1>
+    <h1 className="text-3xl py-8 font-bold text-center text-white">
+      {children}
+    </h1>
   );
 }

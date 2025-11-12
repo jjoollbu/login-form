@@ -2,14 +2,14 @@ import clsx from "clsx";
 
 type ContainerProps = {
   children: React.ReactNode;
+  className?: string;
 };
 
-export function Container({ children }: ContainerProps) {
+export function Container({ children, className }: ContainerProps) {
   return (
     <div
       className={clsx(
         "flex",
-        "flex-col",
         "items-center",
         "justify-center",
         "min-h-screen",
@@ -18,7 +18,7 @@ export function Container({ children }: ContainerProps) {
         "via-black",
         "to-black",
         "text-white",
-        "p-8"
+        className
       )}
     >
       <div className="max-w-5xl mx-auto px-8">{children}</div>
