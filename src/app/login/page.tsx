@@ -87,7 +87,7 @@ export default function LoginPage() {
         <div className="flex flex-col items-center">
           <Button
             href="/register"
-            className="text-sm text-gray-400 hover:text-emerald-400 transition-colors"
+            className="text-sm text-center text-gray-400 hover:text-emerald-400 transition-color"
           >
             Não possui uma conta? Cadastre-se
           </Button>
