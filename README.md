@@ -70,10 +70,4 @@ Siga as instruções abaixo para configurar e executar o projeto em seu ambiente
     ```
 
 6.  Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
-
-## 🤝 Contribuidores
-
-* [Seu Nome / Usuário do GitHub]
-* [Nome / Usuário do GitHub do seu colega]
-
 ---
